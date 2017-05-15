@@ -1,0 +1,11 @@
+[package]
+name = "python_maybe"
+version = "0.1.0"
+authors = ["danny"]
+
+[lib]
+name = 'dannyexample'
+crate-type = ["cdylib"]
+
+[dependencies]
+libc = "*"
